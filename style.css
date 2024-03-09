@@ -2,6 +2,87 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    background-color:#b2bec3;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px 0 #6A6A6A;
+}
+
+.foto-eliska {
+    border: 3px solid white;
+    position: absolute;
+    top: -75px;
+    right:-75px; 
+}
+
+.vizitka {
+    width: 550px;
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: justify;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    box-shadow: 3px 3px 6px 0 #6A6A6A;
+}
+
+.vizitka p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: block;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.twitter:active {
+    background-color:#0b7bc1;
+}
+
+.facebook {
+    background-color:#3b5998;
+}
+
+.facebook:active {
+    background-color: #2b406e
+}
+
+.button {
+    display: block;
+    text-align: center;
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
